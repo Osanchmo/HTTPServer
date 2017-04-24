@@ -28,7 +28,7 @@ public class Fil extends Thread{
                     "</html>";
 
             socket.getOutputStream().write(httpResponse.getBytes("UTF-8"));
-            socket.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
